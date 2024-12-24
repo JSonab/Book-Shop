@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: center;
+    height: 12vmin;
+
+    @media (max-width: 480px) {
+        height: 12vmax;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        height: 100%;
+        flex-wrap: wrap;
+        width: 73vw;
+
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding-top: 4vmax
+        }
+
+        .logo{
+            color: rgb(28, 42, 57);
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+}

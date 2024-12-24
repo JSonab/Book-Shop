@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+@mixin font($color, $size){
+    color: $color;
+    font-size: $size;
+    font-weight: 700;
+}
+
+$base-black: rgb(28, 42, 57);
+$base-grey: rgb(92, 106, 121);

@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from "react-dom";
-import SimpleCarousel from './components/slider';
+import "./app.scss"
+import Header from './components/header/header';
+import Main from './components/main/main';
 
 
 const App = () => {
     return (
       <div>
-        <SimpleCarousel/>
+        <Header/>
+        <Main/>
       </div>
     );
   };
